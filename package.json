@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.2.0-canary.61",
     "@heroicons/react": "^2.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
@@ -23,7 +24,6 @@
     "autoprefixer": "^10.4.14",
     "eslint": "^9",
     "eslint-config-next": "15.2.0-canary.61",
-    "next": "^15.3.5",
     "postcss": "^8.4.21",
     "postcss-import": "^15.1.0",
     "postcss-nesting": "^10.2.0",
