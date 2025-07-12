@@ -21,7 +21,7 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center">
-            <div className="relative h-28 w-64">
+            <div className="relative h-[160px] w-[240px]">
               <Image
                 src="/RkHealthcareLogo.png"
                 alt="RK Healthcare Logo"
@@ -39,7 +39,7 @@ export default function Header() {
                 key={href}
                 href={href}
                 className={`text-sm font-medium transition-colors hover:text-primary ${
-                  pathname === href ? 'text-primary' : 'text-gray-700'
+                  pathname === href ? "text-primary" : "text-gray-700"
                 }`}
               >
                 {label}
@@ -59,7 +59,7 @@ export default function Header() {
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle menu"
           >
-            {isMobileMenuOpen ? 'Close' : 'Menu'}
+            {isMobileMenuOpen ? "Close" : "Menu"}
           </button>
         </div>
 
